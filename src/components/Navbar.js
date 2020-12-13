@@ -19,10 +19,24 @@ export default class Navbar extends Component {
             <Link to="/">
               <FaHotel />
             </Link>
-            <button type='button' className="nav-button" onClick={this.handelToggle}>
+            <button
+              type="button"
+              className="nav-btn"
+              onClick={this.handelToggle}
+            >
               <FaAlignRight className="nav-icon" />
             </button>
           </div>
+          <ul
+            className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
+          >
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/rooms">Rooms</Link>
+            </li>
+          </ul>
         </div>
       </div>
     );

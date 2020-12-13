@@ -1,10 +1,10 @@
 import "./App.css";
-import Rooms from "./components/Rooms";
-import SingleRoom from "./components/SingleRoom";
-import Home from "./components/Home";
-import Error from "./components/Error";
+import Rooms from "./pages/Rooms";
+import SingleRoom from "./pages/SingleRoom";
+import Home from "./pages/Home";
+import Error from "./pages/Error";
 import { Switch, Route } from "react-router-dom";
-import NavBar from './comp/Navbar'
+import NavBar from './components/Navbar'
 
 function App() {
   return (
