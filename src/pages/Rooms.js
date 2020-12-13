@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
+import Hero from '../components/Hero'
 
 export default class Rooms extends Component {
     render() {
         return (
-            <div>
-                room
-            </div>
+            <Hero hero="roomsHero" />
         )
     }
 }
